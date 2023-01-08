@@ -7,8 +7,12 @@ docker build --tag rectle-tasks-service:python .
 
 ## Run Locally
 
+```sh
+python main.py
 ```
-docker run --rm -p 9090:8080 -e PORT=8080 rectle-tasks-service:python
+
+```
+docker run --rm -p 5000:5000 -e PORT=5000 rectle-tasks-service:python
 ```
 
 ## Deploy
